@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 // import Component1 from './components/component1';
 // import {ComponentA, ComponentB} from './components/DoisComponentes';
 import MultiElementos from "./components/MultiElementos";
+import Familia from "./components/Familia";
+
 const element = document.getElementById('root');
 
 ReactDOM.render(
@@ -12,6 +14,7 @@ ReactDOM.render(
             <ComponentA valor="Componente Um" />
             <ComponentB valor="Componente Dois" /> */}
             <MultiElementos />
+            <Familia />
         </div>
     </>
     , element
